@@ -9,9 +9,9 @@ import (
 	"unicode"
 )
 
-// LSM represents a Linux Software Map entry
+// LSM represents a Linux Software Map (version) entry
 //
-// Mandatory fields: Title, Version, Entered-date, Description, Primary-site
+// Mandatory fields: Title, Version, Entered-date, Description, Author, Primary-site
 type LSM struct {
 	// Title: the name of the package
 	Title string
