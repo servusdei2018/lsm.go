@@ -9,7 +9,7 @@ import (
 	"unicode"
 )
 
-// LSM represents a Linux Software Map (version) entry
+// LSM represents a Linux Software Map (version 4) entry
 //
 // Mandatory fields: Title, Version, Entered-date, Description, Author, Primary-site
 type LSM struct {
